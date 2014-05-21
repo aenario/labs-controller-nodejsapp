@@ -8,5 +8,5 @@ RUN mkdir -p /opt/app && cp -a /tmp/node_modules /opt/app/
 ADD . /opt/app
 RUN cd /opt/app; npm install --production
 
-EXPOSE 9101
-CMD cd /opt/app/; HOST=0.0.0.0 COUCH_HOST=$COUCH_PORT_5984_TCP_ADDR COUCH_PORT=$COUCH_PORT_5984_TCP_PORT npm start
+EXPOSE 8000
+CMD cd /opt/app/; npm start
