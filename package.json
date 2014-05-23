@@ -1,5 +1,5 @@
 {
-  "name": "test-node-app",
+  "name": "labs-controller-nodejsapp",
   "version": "0.0.0",
   "description": "tst app",
   "main": "index.js",
