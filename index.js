@@ -8,7 +8,7 @@ var server = http.createServer(function (req, response) {
 
     request.get(ds, function (err, res, body) {
       response.writeHead(200, {"Content-Type": "text/plain"});
-      response.end("Hello World. DS SAID\n" + err + ' ' + body);
+      response.end("Hello World. This is v2. DS SAID\n" + err + ' ' + body);
     });
 
 });
